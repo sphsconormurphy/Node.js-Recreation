@@ -1,1 +1,25 @@
-
+#links{
+  height:10%;
+}
+#top{
+  height:25%;
+}
+#background{
+  height:inherit;
+}
+#background div{
+  height:inherit;
+  width:50%;
+}
+#bottom{
+  height:40%;
+}
+#bottom p{
+  height:25%;
+}
+#bottom div{
+  width:25%;
+}
+#footer{
+  height:25%;
+}
