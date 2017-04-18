@@ -1,26 +1,33 @@
-#logo{
+header{
+  background-color:grey;
+  height:20%;
   width:inherit;
-  height:10%;
-  background-color:grey;
 }
-#logo img{
+
+#logo{
   width:100%;
-  height:100%;
+  height:50%;
+  background-image: url("http://nodejs.org/static/images/logo.png");
 }
+
 #links{
-  height:10%;
-  background-color:grey;
+  height:50%;
   margin:0;
+  padding-top: 0.5%;
+  padding-bottom:0.5%;
 }
-li{
-  float:left;
+#links a{
+  color:white;
+  margin:0.3%;
 }
 #banner{
   height:15%;
   width:inherit;
+  background-image: url("http://nodejs.org/static/images/interactive/background.jpg");
 }
-#banner img{
+#banner div{
   width: 100%;
+  background-image: url(http://nodejs.org/);
 }
 #bottom{
   height:40%;
