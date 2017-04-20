@@ -1,13 +1,13 @@
 header{
   background-color:grey;
-  height:20%;
-  width:inherit;
+  height:200px;
+  width:100%;
 }
 
 #logo{
-  width:100%;
-  height:50%;
-  background-image: url("http://nodejs.org/static/images/logo.png");
+  width:50%;
+  height:auto;
+  background-image: url("https://nodejs.org/static/images/logo.png");
 }
 
 #links{
@@ -23,11 +23,12 @@ header{
 #banner{
   height:15%;
   width:inherit;
-  background-image: url("http://nodejs.org/static/images/interactive/background.jpg");
+  background-image: url("https://nodejs.org/static/images/interactive/nodejs-interactive.png");
 }
 #banner div{
-  width: 100%;
-  background-image: url(http://nodejs.org/);
+  width: inherit;
+  height:inherit;
+  background-image: url("http://nodejs.org/static/images/interactive/background.jpg");
 }
 #bottom{
   height:40%;
@@ -37,6 +38,8 @@ header{
 }
 #bottom div{
   width:25%;
+  height:75%;
+  background-color:green;
 }
 #footer{
   height:25%;
